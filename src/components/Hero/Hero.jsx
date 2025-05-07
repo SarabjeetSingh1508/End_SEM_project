@@ -16,9 +16,7 @@ import mainImage from "../../assets/images/main_image.jpg";const Hero = () => {
             <a href="#get-started" className="btn-primary">
               Get Started
             </a>
-            <a href="#watch-demo" className="btn-secondary">
-              Watch Demo
-            </a>
+
           </div>
         </div>
       </section>
