@@ -1,0 +1,32 @@
+.success-stories {
+    background-image: url("../../assets/images/image1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    padding: 50px 20px; 
+  }
+  
+  .success-content {
+    background-color: rgba(102, 102, 102, 0.6); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .join-today-btn {
+    display: inline-block;
+    background-color: #ff6b6b; 
+    color: #fff; 
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.join-today-btn:hover {
+    background-color: #e55a5a; 
+}

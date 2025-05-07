@@ -1,0 +1,58 @@
+.membership {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .membership h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .membership-plans {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .plan h3 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan ul li::before {
+    content: "✔";
+    color: #ff5722;
+    margin-right: 0.5rem;
+  }

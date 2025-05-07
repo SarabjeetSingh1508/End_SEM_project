@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo h1 {
+    font-size: 1.5rem;
+    color: #ff5722;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navbar-join {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .navbar-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-login,
+  .navbar-signup {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-login {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .navbar-login:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-signup {
+    background-color: #ff5722;
+    color: #fff;
+  }
+  
+  .navbar-signup:hover {
+    background-color: #e64a19;
+  }
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff5722;
+  }
